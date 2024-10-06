@@ -105,7 +105,7 @@ def find_account_by_account_number(account_number):
             return account
     return None
 
-print("*******WELCOME TO BANK OF BHUTAN*******")
+print("*******WELCOME TO BANK OF APKA*******")
 print("___________________________________________________________\n")
 print("----------ACCOUNT CREATION----------")
 name = input("Enter your name: ")
@@ -113,7 +113,7 @@ account_number = input("Enter your account number: ")
 print("Congratulations! Account created successfully......\n")
 
 # Creating accounts
-accounts = [ATM("John ", "12345", 1000), ATM("Jane ", "54321", 1500), ATM(name, account_number)]
+accounts = [ATM("Abhi ", "12345", 1000), ATM("Pawan", "54321", 1500), ATM(name, account_number)]
 
 while True:
     trans = input("Do you want to do any transaction? (y/n): ")
